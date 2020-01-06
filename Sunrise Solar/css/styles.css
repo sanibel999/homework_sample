@@ -1,0 +1,123 @@
+/* Style sheet created by: Denise Derderian */
+
+/* Style for body specifies a background color and font size */
+body {
+
+/*	background-color: #d0f3ff;*/	/*Lt. Blue*/
+	background-color: #cbf9c9;		/*Light Green*/
+	font-size: 1.2em;
+}
+
+
+/* Style for the header specifies top margin, border radius background color, and center align content */
+header {
+	margin-top: 0.2em;
+	border-radius: 0.5em;
+	background-color:#f8f9c9 ;    /*cream*/	/*White #FFFFFF   */
+	text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	padding:5px;
+	margin-top: .5em;
+/*	background-color: #ed7f7b; */  	/*Lt. Red*/
+	background-color: #fc8305;		/*orange*/
+	border-radius: 0.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0.5em;
+	list-style: none
+}
+
+nav li	{ 
+	list-style: none; 
+	display: inline-block; 
+} 
+
+div {
+	padding:.3em;
+	
+}
+
+/* Style for the main section specifies padding left, padding right and padding bottom */
+main{
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+	padding-bottom: 2.0em;
+}
+
+
+/* Style for id and class sections background color, alignment and font size */
+#save{
+	width: 25%;
+	display:inline-block;
+	margin-right:5em;
+
+}
+
+#butterfly{
+	width: 25%;
+	display: inline-block;
+	margin-right: 5em;
+}
+
+#bear{
+	width: 25%;
+	display:inline-block;
+	
+}
+
+#productPage{
+	text-align: center;
+
+}
+
+
+.centerPic{
+	text-align: center;
+}	
+	
+.letter{
+	width: 70%;
+	background-color: #f8f9c9; 			/*  cream     */
+/*	background-color: #0b511d;	*/		/* dark green */
+/*	background-color: #d0f3ff;	*/		/* lt blue    */
+/*	background-color: #ffffff;	*/		/* white      */
+/*	font-size: 1.2em;		*/
+	border-radius: 0.5em;
+	margin-bottom: 1.0em;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+
+.job {
+	width: 70%;
+	background-color: #f8f9c9;			/*cream*/
+	border-radius: 0.5em;
+	margin-bottom: 1.0em;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+
+
+#contact{
+	font-weight: bold;
+}
+
+.contactLogo{
+	float: right;
+	margin-right: 4.0em;
+	margin-top: 1.0em;
+}
+
+
+/* Style for the footer specifies background color, padding and text alignment */
+footer {
+	background-color: #858081;
+	padding:1.0em;
+	text-align: center;
+}
